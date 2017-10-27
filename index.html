@@ -1,0 +1,427 @@
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<title></title>
+			<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+			<style type="text/css">
+			.homepage-hero-module {
+				border-right: none;
+				border-left: none;
+				position: relative;
+			}
+			.no-video .video-container video,
+			.touch .video-container video {
+				display: none;
+			}
+			.no-video .video-container .poster,
+			.touch .video-container .poster {
+				display: block !important;
+			}
+			.video-container {
+				position: relative;
+				bottom: 0%;
+				left: 0%;
+				height: 100%;
+				width: 100%;
+				overflow: hidden;
+				background: #000;
+			}
+			.video-container .poster img {
+				width: 100%;
+				bottom: 0;
+				position: absolute;
+			}
+			.video-container .filter {
+				z-index: 100;
+				position: absolute;
+				background: rgba(0, 0, 0, 0.4);
+				width: 100%;
+			}
+			.video-container video {
+				position: absolute;
+				z-index: 0;
+				bottom: 0;
+			}
+			.video-container video.fillWidth {
+				width: 100%;
+				}.homepage-hero-module {
+					border-right: none;
+					border-left: none;
+					position: relative;
+				}
+				.no-video .video-container video,
+				.touch .video-container video {
+					display: none;
+				}
+				.no-video .video-container .poster,
+				.touch .video-container .poster {
+					display: block !important;
+				}
+				.video-container {
+					position: relative;
+					bottom: 0%;
+					left: 0%;
+					height: 100%;
+					width: 100%;
+					overflow: hidden;
+					background: #000;
+				}
+				.video-container .poster img {
+					width: 100%;
+					bottom: 0;
+					position: absolute;
+				}
+				.video-container .filter {
+					z-index: 100;
+					position: absolute;
+					background: rgba(0, 0, 0, 0.4);
+					width: 100%;
+				}
+				.video-container video {
+					position: absolute;
+					z-index: 0;
+					bottom: 0;
+				}
+				.video-container video.fillWidth {
+					width: 100%;
+				}
+				.container-fluid
+				{
+					padding-left: 0;padding-right: 0;
+				}
+				.clr
+				{
+					background-color: #03036f;font-size: 17px;font-weight: bold;margin-bottom: -20px;border-radius: 0;
+				}
+				a
+				{
+					color: #fff;
+				}
+				.Formations
+				{
+					background-image: url("college.jpg");background-size: 90% 100% ;height: 700px;
+					background-attachment: scroll;font-size: 30px;text-align: center;background-position: center;background-repeat: no-repeat;
+				}
+				section
+				{
+					margin-top: -20px;
+				}
+				.Langues
+				{
+					font-size: 20px;text-align: center;
+				}
+		        .Contacts
+				{
+					font-size: 20px;text-align: center;
+				}
+				.Experiences
+				{
+					text-align: left;
+				}
+				.timeline ul li
+				{
+					list-style-type: none;
+					position: relative;
+					width: 6px;
+					margin: 0 auto;
+					padding-top: 50px;
+					background-color: black;
+				}
+				.timeline ul li div
+				{
+					width: 450px;
+					background-color: #03036f;
+					position: relative;
+					padding: 15px;
+					color: #fff;
+				}
+				.timeline ul li::after
+				{
+					content: '';
+					position: absolute;
+					left: 50%;
+					bottom: 0;
+					transform: translateX(-50%);
+					width: 30px;
+					height: 30px;
+					border-radius: 50%;
+					background: inherit;
+					margin-bottom: -15px;
+				}
+				.timeline ul li:nth-child(odd) div
+				{
+					left: 15px;
+					border-radius: 10% 0;			
+				}
+				.timeline ul li:nth-child(even) div
+				{
+					left:-7650%;
+					border-radius: 0 10%;			
+				}
+				.video
+				{
+					margin-bottom: 20px;
+				}
+				.texte 
+				{
+					position:relative;margin-bottom: 200px;font-size: 50px;text-align: center;margin-top: -200px;color: #fff;font-family: 'Lobster', cursive;
+
+				}
+				.form-group
+				{
+					text-align: left;margin-left: 30px
+				}
+				.logo
+				{
+					height: 30px;width: 100px;margin-left: 470px;margin-bottom: -25px; 
+				}
+			</style>
+			<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		</head>
+		<body>
+			<nav class="navbar clr">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#" style="background-color: black;">Acceuil</a>
+							</li>
+							<li>
+								<a href="#">Formations</a>
+							</li>
+							<li>
+								<a href="#">Experiences professionnelles</a>
+							</li>
+							<li>
+								<a href="#">Langue</a>
+							</li>
+							<li>
+								<a href="#">Contacts</a>
+							</li>
+							<a href="#"><img class="logo" src="logo.png"></a>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<br><br>
+			<section class="content">
+				<div class="homepage-hero-module">
+		        <div class="video-container">
+		        <div class="filter"></div>
+					<video autoplay loop>
+						<source src="cv.mp4" type="video/mp4" />Votre navigateur ne suporte pas cette video
+					</video>	
+				</div>
+		        </div>
+		        <div class="texte">
+		            WELCOME
+		        </div>
+				<div class="row Formations">
+					<div class="col-md-12">
+						<p style="font-weight: bold;font-size: 40px;">Formations</p>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<p>2015</p>
+					</div>
+		            <div class="col-md-4 col-sm-4">
+						<p>BAC</p>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<p>mention tres bien</p>
+					</div>
+				</div>
+				<br><br><br>
+				<div class="row Langues">
+		            <div class="col-md-12">
+						<p style="font-weight: bold;font-size: 40px;">Langues</p>
+					</div>			
+					<div class="col-md-4 Anglais col-sm-4">
+						<img src="uk.jpg" style="height: 30px">
+						<p >Anglais</p>
+						<div class="progress-bar progress-bar-success"  role="progressbar" aria-valuenow="70"
+						 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+						70%	
+						</div>
+					</div>
+					<div class="col-md-4 Francais col-sm-4">
+						<img src="fr.jpg" style="height: 30px">
+						<p >Francais</p>
+						<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80"
+						 aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+						80%
+					    </div>
+				    </div>		
+					<div class="col-md-4 Arabe col-sm-4">
+						<img src="dz.jpg" style="height: 30px">
+						<p >Arabe</p>
+						<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80"
+						 aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+						80%				
+					</div>			
+				</div>
+				<br><br><br><br><br><br><br><br>
+
+				<div class="row">
+				    <div class="col-md-12">
+						<p style="font-weight: bold;font-size: 40px;text-align: center;">Experiences professionnelles</p>
+					</div><br><br><br>
+					<div class="timeline">				
+					<ul class="Experiences">
+						<li>
+							<div>
+							<time>septembre 2016</time>
+							<h1>Stage 1</h1>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.
+						    </div>
+						</li>
+						<li>
+							<div>
+							<time>juin 2016</time>
+						    <h1>Stage 2</h1>
+						    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.
+							</div>
+						</li>
+						<li>
+							<div>
+							<time>juin 2017</time>
+						    <h1>Stage 3</h1>
+						    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.
+						    </div>
+						</li>				
+					</ul>
+				</div>	
+				</div><br><br><br>
+				<div class="row Contacts">
+				    <div class="col-md-12">
+						<p style="font-weight: bold;font-size: 40px;">Contacts</p>
+					</div>	
+					<div class="col-md-5 col-sm-5">
+						<div class="col-md-2">
+						    <i class="fa fa-envelope" aria-hidden="true"></i>
+						</div> 
+						<div class="col-md-2 col-sm-4">   
+						    <p>abderrezakwalid97@gmail.com</p>
+						</div>    
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="col-md-2">
+						    <i class="fa fa-mobile" aria-hidden="true"></i>
+					    </div>	
+		                <div class="col-md-2">
+						    <p>0558241924</p>
+					    </div>
+					</div>
+					<div class="col-md-4">
+		                <div class="col-md-2">
+						    <i class="fa fa-facebook-square" aria-hidden="true" style="color: #03036f"></i>
+		                </div>
+		                <div class="col-md-6">
+						    <p>Walid Abderrezak</p>
+						</div>    
+					</div>
+				</div>
+				<br><br><br>
+				<form>
+					<div class="col-md-4 col-sm-12 form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					</div>
+					<div class="col-md-4 col-sm-12 form-group">
+						<label for="exampleInputPassword1">Password</label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					</div>
+					<div class="col-md-4 col-sm-12 form-group">
+						<label for="exampleInputFile">File input</label>
+						<input type="file" id="exampleInputFile">
+					</div>
+				</form>
+			</section>
+
+			<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+			<script type="text/javascript" href="bootstrap/js/bootsrap.min.js"></script>
+			<script type="text/javascript">
+				$( document ).ready(function()
+				{
+					test();
+				});
+
+				function test(){
+						$(".texte").fadeToggle(1000);
+	            test(); 
+				}
+
+
+
+			</script>			
+			<script type="text/javascript">
+				$( document ).ready(function() {
+
+		    scaleVideoContainer();
+
+		    initBannerVideoSize('.video-container .poster img');
+		    initBannerVideoSize('.video-container .filter');
+		    initBannerVideoSize('.video-container video');
+
+		    $(window).on('resize', function() {
+		        scaleVideoContainer();
+		        scaleBannerVideoSize('.video-container .poster img');
+		        scaleBannerVideoSize('.video-container .filter');
+		        scaleBannerVideoSize('.video-container video');
+		    });
+
+		});
+
+		function scaleVideoContainer() {
+
+		    var height = $(window).height() + 5;
+		    var unitHeight = parseInt(height) + 'px';
+		    $('.homepage-hero-module').css('height',unitHeight);
+
+		}
+
+		function initBannerVideoSize(element){
+
+		    $(element).each(function(){
+		        $(this).data('height', $(this).height());
+		        $(this).data('width', $(this).width());
+		    });
+
+		    scaleBannerVideoSize(element);
+
+		}
+
+		function scaleBannerVideoSize(element){
+
+		    var windowWidth = $(window).width(),
+		    windowHeight = $(window).height() + 5,
+		    videoWidth,
+		    videoHeight;
+
+		    // console.log(windowHeight);
+
+		    $(element).each(function(){
+		        var videoAspectRatio = $(this).data('height')/$(this).data('width');
+
+		        $(this).width(windowWidth);
+
+		        if(windowWidth < 1000){
+		            videoHeight = windowHeight;
+		            videoWidth = videoHeight / videoAspectRatio;
+		            $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+
+		            $(this).width(videoWidth).height(videoHeight);
+		        }
+
+		        $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+
+		    });
+		}
+		         
+			</script>
+
+		</body>
+		</html>
